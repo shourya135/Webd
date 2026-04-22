@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic JavaScript Demo</title>
+<link rel="stylesheet" href="exp3.css">
+</head>
+<body>
+<div class="container">
+ <h1 id="main-heading">Dynamic JavaScript Demo</h1>
+<div class="input-group">
+ <input type="text" id="message-input" placeholder="Type your message here...">
+</div>
+ <div class="buttons">
+<button id="change-text">Change Heading Text</button>
+<button id="change-bg">Random Background</button>
+ <button id="change-font">Increase Font Size</button>
+<button id="toggle-para">Show/Hide Paragraph</button>
+ <button id="reset">Reset All</button>
+</div>
+<p id="dynamic-para">
+ This paragraph can be hidden or shown using JavaScript. 
+ Try different buttons to see dynamic changes in action!
+</p>
+<div class="status" id="status"></div>
+<div class="info">
+ <strong>Events used:</strong> onclick, onmouseover, onchange, addEventListener(), etc.
+ </div>
+</div>
+<script src="exp3.js"></script>
+</body>
+</html>

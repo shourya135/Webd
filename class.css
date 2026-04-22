@@ -1,0 +1,33 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+input, button {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  background: #4CAF50;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+#output {
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+}
+
+.card {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
